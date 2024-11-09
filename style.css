@@ -20,6 +20,7 @@
     color:hsl(241, 100%, 89%) ;
     height: 50%;
     justify-items: center;
+    align-items: center;
     border-radius:0px 0px 40px 40px;
 }
 .score{

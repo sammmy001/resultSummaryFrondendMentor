@@ -1,0 +1,169 @@
+*{
+ padding: none;
+ border:none;
+ box-sizing: border-box;
+}
+ body{
+    margin: 0px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;  
+ }
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container1{
+    background-color:  #4F37F5;
+    color:hsl(241, 100%, 89%) ;
+    height: 50%;
+    justify-items: center;
+    border-radius:0px 0px 40px 40px;
+}
+.score{
+    background-color: #452CDE;
+    justify-items: center;
+    width: 120px;
+    height: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 60%;
+}
+.score h1{
+color: white;    
+}
+.score p{
+    color:  hsl(241, 100%, 89%);
+}
+.container1 h3{
+    color: white;
+}
+#overall{
+    width: 80%;
+    text-align: center;
+   
+}
+
+
+.container2{
+    display: flex;   
+    height: 100%;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    width: 100vw;
+    height: 95vw;
+}
+.row{
+    height: 50px;
+    width: 90%;
+    color: hsl(241, 100%, 89%);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    align-items: center;
+    align-self: center;
+    border-radius: 12px;
+    
+}
+.child h3{
+    width: 90%;
+    align-self: center;
+
+}
+
+#continue{
+background-color:#303B59 ;
+color: white;
+justify-content: center;
+border-radius: 50px;
+}
+#continue:hover{
+    cursor: pointer;
+}
+.number{
+    color: #303B59;
+}
+img{
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+#red{
+    color: #F06971;
+}
+#yellow{
+    color: #F0C768;
+}
+#green{
+    color: #4FBEA1;
+}
+#blue{
+    color: #2F399E;
+}
+
+#bgRed{
+    background-color: #FFF6F5;
+}
+
+#bgYellow{
+    background-color: #FFFBF2;
+}
+
+#bgGreen{
+    background-color: #F2FBFA;
+}
+
+#bgBlue{
+background-color: #F3F3FD;
+}
+
+
+@media screen and (min-width:1000px){
+ body{
+    height: 100%vh;
+ }   
+.parent{
+    flex-direction: row;
+    align-items: center;
+    padding: none;
+    height: 100vh;
+}
+ .child{
+        height:100%;
+} 
+.container2{
+    height:60%;
+    width: 25%;
+    padding: 20px;
+    box-shadow:  5px 5px 40px #F3F4FD;
+    border-radius:0px 20px 20px 0px;
+
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+    align-items: center;
+    width: 25%;
+    height:60%;
+    border-radius: 20px 20px;
+    position: relative;
+    left: 20px;
+    box-shadow:  -5px 5px 40px #F3F4FD;
+   
+}
+.row{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+#continue{
+    margin-top: 10px;
+}
+
+}
